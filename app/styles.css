@@ -1,0 +1,17 @@
+.application {
+  margin: 0 20px;
+  text-align: center;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  input {
+    border-radius: 3px;
+    padding: 5px;
+  }
+}

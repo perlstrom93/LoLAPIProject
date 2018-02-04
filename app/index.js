@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import styles from './styles.css';
 
 class Welcome extends React.Component {
   state = {name: 'React Test'};
@@ -12,7 +13,7 @@ class Welcome extends React.Component {
     const { handleChange, state: { name } } = this;
 
     return (
-      <div>
+      <div className={styles.application}>
         <h1>Welcome</h1>
         <p>Hello {name}</p>
         <input type="text" onChange={handleChange} placeholder="Name" />
